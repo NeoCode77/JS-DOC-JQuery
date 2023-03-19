@@ -7,3 +7,12 @@ npm i jquery
 ```html
 <script src="./node_modules/jquery/dist/jquery.min.js"></script>
 ```
+
+> code jquery
+```html
+<script>
+  $(document).ready({
+      // code
+  });
+</script>
+```
