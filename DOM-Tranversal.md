@@ -32,3 +32,17 @@ $(".container").children();
 $(".container").children("box1");
 // <div class="box1"></div>
 ```
+
+**C. penelusuran after sibling element**
+> dalam menelusuri element setelahnya dari sebuah element tertentu menggunakan method **next()**
+```javascript
+$(".container .box1").next();      
+// <div class="box2"></div>
+```
+
+**D. penelusuran before sibling element**
+> dalam menelusuri element sebelumnya dari sebuah element tertentu menggunakan method **prev()**
+```javascript
+$(".container .box2").prev();      
+// <div class="box1"></div>
+```
