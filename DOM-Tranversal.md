@@ -1,4 +1,4 @@
-# DOM TRAMVERSAL
+# DOM TRANVERSAL
 
 > DOM tranversal digunakan untuk penelusuran element bedasarkan hubungan element tertentu.
 ```html
@@ -15,13 +15,13 @@
 </body>
 ```
 
-A. penelusuran parent element
+**A. penelusuran parent element**
 > dalam menelusuri perent dari elemet tertentu menggunakan method **parent()**.
 ```javascript
 $(".box1").parent();      // <div class="container"></div>
 ```
 
-A. penelusuran child element
+**B. penelusuran child element**
 > dalam menelusuri child dari elemet tertentu menggunakan method **children()**.
 ```javascript
 $(".container").children();      
